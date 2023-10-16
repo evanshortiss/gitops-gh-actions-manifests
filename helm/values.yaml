@@ -10,3 +10,5 @@ nodeapp:
     limits:
       memory: "512Mi"
       cpu: "1"
+backend:
+  image: quay.io/evanshortiss/gitops-and-actions:sha-615aa1b
